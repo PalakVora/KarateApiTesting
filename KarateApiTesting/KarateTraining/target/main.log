@@ -1,0 +1,176 @@
+13:30:54.448 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:30:54.917 request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.2)
+
+13:30:55.666 response time in milliseconds: 745.29
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6766
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5c9442b2f824d791-MRS
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 27 Aug 2020 08:00:44 GMT
+1 < Etag: W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dfe7f603639efaa8a8204a045ff17f3ee1598515243; expires=Sat, 26-Sep-20 08:00:43 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 04d08803d80000d791dd033200000001
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+13:30:55.669 request:
+2 > GET https://reqres.in/api/users
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=dfe7f603639efaa8a8204a045ff17f3ee1598515243
+2 > Host: reqres.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.2)
+
+13:30:56.224 response time in milliseconds: 552.97
+2 < 200
+2 < Access-Control-Allow-Origin: *
+2 < Age: 1551
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 5c9442b68b75101a-MRS
+2 < Cache-Control: max-age=14400
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Thu, 27 Aug 2020 08:00:44 GMT
+2 < Etag: W/"4c5-znzuruTKwnH4068T7ikF88YcCME"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Powered-By: Express
+2 < cf-request-id: 04d08806140000101ad9097200000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+13:30:56.244 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:30:56.250 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.2)
+{"first_name":"Palak","last_name":"Vora"}
+
+13:30:56.911 response time in milliseconds: 660.90
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5c9442ba3e57d785-MRS
+1 < Connection: keep-alive
+1 < Content-Length: 91
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 27 Aug 2020 08:00:45 GMT
+1 < Etag: W/"5b-pv5JS2SLcsdPKFlInQWQXnI1qCM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d49f43345ab7fd903ffba143aa45136011598515245; expires=Sat, 26-Sep-20 08:00:45 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 04d08808670000d785c98f6200000001
+{"first_name":"Palak","last_name":"Vora","id":"688","createdAt":"2020-08-27T08:00:45.220Z"}
+
+13:30:56.924 request:
+2 > PUT https://reqres.in/api/users/688
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 21
+2 > Content-Type: application/json; charset=UTF-8
+2 > Cookie: __cfduid=d49f43345ab7fd903ffba143aa45136011598515245
+2 > Host: reqres.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.2)
+{"first_name":"Hope"}
+
+13:30:57.576 response time in milliseconds: 652.24
+2 < 200
+2 < Access-Control-Allow-Origin: *
+2 < CF-Cache-Status: DYNAMIC
+2 < CF-RAY: 5c9442bea9a9d779-MRS
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Thu, 27 Aug 2020 08:00:45 GMT
+2 < Etag: W/"3c-KPmFuVAHAhLof/zuvwaD+JchwUE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Powered-By: Express
+2 < cf-request-id: 04d0880b270000d7791e965200000001
+{"first_name":"Hope","updatedAt":"2020-08-27T08:00:45.924Z"}
+
+13:30:57.583 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:30:57.587 request:
+1 > DELETE https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.2)
+
+13:30:58.273 response time in milliseconds: 685.91
+1 < 204
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5c9442c30fe6e914-MRS
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Thu, 27 Aug 2020 08:00:46 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d83ef688fe03778be20b4ba235a16a8131598515246; expires=Sat, 26-Sep-20 08:00:46 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 04d0880de00000e914590e8200000001
+
+13:30:58.281 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:30:58.293 request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.2)
+
+13:30:58.816 response time in milliseconds: 523.26
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6769
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5c9442c6df6dd779-MRS
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 27 Aug 2020 08:00:47 GMT
+1 < Etag: W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8bf0dd4bf07be18c71f51d7f4029f3221598515247; expires=Sat, 26-Sep-20 08:00:47 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 04d08810460000d7791f280200000001
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+13:30:58.851 [print] Details of user with name Michael:  {
+  "last_name": "Lawson",
+  "id": 7,
+  "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg",
+  "first_name": "Michael",
+  "email": "michael.lawson@reqres.in"
+}
+
